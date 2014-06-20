@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'altynai'
+AUTHOR = u'Altynai'
 SITENAME = u'Sideways'
-SITEURL = ''
+SITEURL = 'http://Altynai.me'
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -22,8 +22,10 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('github', 'https://github.com/Altynai'),
+    ('weibo', 'http://weibo.com/u/2164187874'),
+)
 
 DEFAULT_PAGINATION = 10
 
@@ -33,4 +35,8 @@ DEFAULT_PAGINATION = 10
 DISQUS_SITENAME = u"Sideways"
 
 # Themes
-THEME = "/Users/Engineer/atom/pelican-themes/iris"
+THEME = "/Users/chenjiapeng/project/pelican-themes/pure"
+
+# Article Url
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
