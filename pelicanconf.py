@@ -1,10 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from platform import node
+
+IS_LOCAL = bool(node() == 'Altynai-MacBook-Pro.local')
 
 AUTHOR = u'Altynai'
 SITENAME = u'Sideways'
-SITEURL = 'http://Altynai.me'
+
+if IS_LOCAL:
+    SITEURL = 'http://localhost:8000'
+else:
+    SITEURL = 'http://Altynai.me'
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -14,12 +21,6 @@ DEFAULT_LANG = u'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-
-# Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (
@@ -34,8 +35,14 @@ DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = u"Sideways"
 
+TAGLINE = "Reflections on life, code, movie, and the craft of writing.."
+
+# Categorys & Pages on menu
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
+
 # Themes
-THEME = "/Users/chenjiapeng/project/pelican-themes/pure"
+THEME = "/Users/chenjiapeng/project/pelican-themes/perec"
 
 # Article Url
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
