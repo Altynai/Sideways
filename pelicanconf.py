@@ -47,3 +47,7 @@ THEME = "/Users/chenjiapeng/project/pelican-themes/perec"
 # Article Url
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
+
+# Plugins
+PLUGIN_PATH = '/Users/chenjiapeng/project/pelican-plugins'
+PLUGINS = ['render_math', ]
