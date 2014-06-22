@@ -42,7 +42,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 
 # Themes
-THEME = "/Users/chenjiapeng/project/pelican-themes/perec"
+THEME = "theme/"
 
 # Article Url
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
