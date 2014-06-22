@@ -63,6 +63,6 @@ mysql路径为：**E:\\Sever\_AMD\\mysql\\MySQL Server 5.5**
 ![][3]
 
   [qt-everywhere-opensource-src-4.8.0.zip]: http://download.qt.nokia.com/qt/source/qt-everywhere-opensource-src-4.8.0.zip
-  [1]: http://altynai.me/wp-content/uploads/2012/04/1.jpg
-  [2]: http://altynai.me/wp-content/uploads/2012/04/2.jpg
-  [3]: http://altynai.me/wp-content/uploads/2012/04/3.jpg
+  [1]: http://altynai-blog-images.qiniudn.com/2012/04/qtsdk4-8-mysql-1.jpg
+  [2]: http://altynai-blog-images.qiniudn.com/2012/04/qtsdk4-8-mysql-2.jpg
+  [3]: http://altynai-blog-images.qiniudn.com/2012/04/qtsdk4-8-mysql-3.jpg

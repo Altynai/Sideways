@@ -83,5 +83,5 @@ Cleo的功能的确很强大，数据大了话能支持分片集群，但是代�
   [Ansj]: http://www.ansj.org/
   [Krati]: http://data.linkedin.com/opensource/krati
   [applyFilter]: https://github.com/linkedin/cleo/blob/master/src/main/java/cleo/search/typeahead/GenericTypeahead.java#L246
-  [demo-pic]: http://altynai.me/wp-content/uploads/2012/10/QQ%E6%88%AA%E5%9B%BE20121012165025.png
+  [demo-pic]: http://altynai-blog-images.qiniudn.com/2012/10/linkedin-cleo-1.png
   
