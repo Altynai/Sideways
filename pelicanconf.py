@@ -1,17 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from platform import node
-
-IS_LOCAL = bool(node() == 'Altynai-MacBook-Pro.local')
 
 AUTHOR = u'Altynai'
 SITENAME = u'Sideways'
 
-if IS_LOCAL:
-    SITEURL = 'http://localhost:8000'
-else:
-    SITEURL = 'http://Altynai.me'
+SITEURL = 'http://Altynai.me'
 
 TIMEZONE = 'Asia/Shanghai'
 
