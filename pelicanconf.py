@@ -12,7 +12,7 @@ TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_RSS = None
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -21,6 +21,7 @@ TRANSLATION_FEED_ATOM = None
 SOCIAL = (
     ('github', 'https://github.com/Altynai'),
     ('weibo', 'http://weibo.com/u/2164187874'),
+    ('rss', "%s/feeds/all.rss.xml" % SITEURL),
 )
 
 DEFAULT_PAGINATION = 10
